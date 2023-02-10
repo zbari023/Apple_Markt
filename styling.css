@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background: rgb(228, 205, 205);
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: white;
+    transition: 0.4s
+}
+
+.nav-item:hover::after {
+    width: 100%
+}
+
+h5 {
+    font-size: 14px;
+}
+
+.dropdown-menu {
+    background: #000000;
+    border: none;
+
+
+}
+
+.img-round {
+    border-radius: 20%;
+
+}
+
+.backcol {
+    background: palevioletred;
+    width: 350px;
+}
+
+.hovering_card {
+    transition: all ease 0.25s;
+}
+
+.hovering_card:hover {
+    border: 5px solid rgb(74, 23, 190);
+    top: -20px;
+}
+
+.mainback {
+    background: url('Images/apple-computer-hd-wallpaper-1920x1200-32800-660x330.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.thback {
+    background: url('Images/Apple-TV.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.imgresize{
+
+    display: block;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+.hovering_card2 {
+    transition: all ease 1s;
+}
+
+.hovering_card2:hover {
+    border: 5px ;
+    top: -5px;
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+    
